@@ -1,0 +1,17 @@
+{% extends 'student/base.html' %}
+{% block title %}BAL{% endblock %}
+{% block body %}
+<span>change z component of each vertex<br/>
+    to see wave animation<br/>
+    x, y, z - current components<br/>
+    t - time value (very big, use in trig. funcs<br/>
+      to animate waves)<br/>
+    pi, e - constants<br/>
+    sqrt, sin, cos, abs, log - std. functions<br/>
+    d - distance from center (=sqrt(x*x+y*y))
+  </span>
+
+  <button onclick='random()'>random</button>
+
+  <input value='z = 1/log(2+sqrt(d))*cos(d-t)'>
+{% endblock %}

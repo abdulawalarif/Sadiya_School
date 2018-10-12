@@ -1,0 +1,23 @@
+body {
+    position: fixed;
+    margin: 0;
+}
+
+span {
+    position: fixed;
+    font-size: 10px;
+    font-weight: 1;
+    color: orange;
+}
+
+button {
+    position: fixed;
+    right: 5%; top: 5%;
+}
+
+input {
+    position: fixed;
+    bottom: 5%;
+    left: 12.5%;
+    width: 75%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}School{% endblock %}</title>
+{% load staticfiles %}
+<link href="{% static 'student/css/bootstrap.min.css' %}" rel="stylesheet">
+<link href="{% static 'student/css/bal.css' %}" rel="stylesheet">
+<link href="{% static 'student/css/styles.css' %}" rel="stylesheet">
+
+    <!--Icons-->
+<script src="{% static 'student/js/lumino.glyphs.js' %}"></script>
+<script src="{% static 'student/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'student/js/bal.js' %}"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'>
+
+
+</head>
+
+<body>
+
+{% block body %}
+{% endblock %}
+
+</body>
+
+
+</html>
